@@ -365,5 +365,54 @@
     </div>
 </section>
 
+<!-- Keranjang -->
+<div class="modal fade" id="modalKeranjang" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">
+                    Keranjang Pesanan
+                </h5>
+
+                <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal">
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <div id="isiKeranjang">
+                    <p class="text-muted">
+                        Keranjang masih kosong.
+                    </p>
+                </div>
+
+                <hr>
+                <div class="d-flex justify-content-between">
+                    <strong>
+                        Total
+                    </strong>
+
+                    <strong id="totalHarga">
+                        Rp 0
+                    </strong>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    Tutup
+                </button>
+
+                <button type="button" class="btn btn-warning" onclick="bukaPembayaran()">
+                    Lanjut Pembayaran
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
