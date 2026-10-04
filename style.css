@@ -94,3 +94,16 @@ body {
     }
 
 }
+
+.foto-tentang {
+    width: 100%;
+    background: #f5f5f5;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.foto-tentang img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
