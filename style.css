@@ -42,3 +42,55 @@ body {
 .menu-card:hover .drink img {
     transform: scale(1.08);
 }
+
+/* CARD */
+.menu-card {
+    transition: .3s;
+}
+
+.menu-card:hover {
+    transform: translateY(-8px);
+}
+
+
+/* ABOUT */
+.about {
+    background: #2d211b;
+    color: white;
+}
+
+.about p {
+    line-height: 1.8;
+}
+
+
+/* NAVBAR */
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+
+/* BUTTON */
+.btn-warning {
+    background: #d29a61;
+    border-color: #d29a61;
+}
+
+.btn-warning:hover {
+    background: #b87d46;
+    border-color: #b87d46;
+}
+
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+    .hero {
+        min-height: 550px;
+    }
+
+    .hero h1 {
+        font-size: 50px;
+    }
+
+}
