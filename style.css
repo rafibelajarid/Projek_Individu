@@ -97,13 +97,32 @@ body {
 
 .foto-tentang {
     width: 100%;
-    background: #f5f5f5;
-    border-radius: 10px;
+    height: 360px;
     overflow: hidden;
+    border-radius: 5px;
 }
 
 .foto-tentang img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
     display: block;
+}
+
+/* Ukuran card foto */
+.col-lg-5 .card {
+    max-width: 630px;
+    margin: auto;
+}
+
+/* Tampilan HP */
+@media (max-width: 991px) {
+    .foto-tentang {
+        height: 300px;
+    }
+
+    .col-lg-5 .card {
+        max-width: 100%;
+    }
 }
