@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kontak - Kopi XAUUSD</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Notifikasi */
+        #notifikasi {
+            display: none;
+            position: fixed;
+            top: 25px;
+            right: 25px;
+            z-index: 9999;
+            min-width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+
+        <div class="container">
+
+            <a
+                class="navbar-brand fw-bold"
+                href="beranda.html">
+
+                KOPI XAUUSD
+
+            </a>
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarMenu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div
+                class="collapse navbar-collapse"
+                id="navbarMenu">
+
+                <ul class="navbar-nav mx-auto">
+
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="beranda.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="beranda.html#menu">
+                            Menu
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="tentang.html">
+                            Tentang
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a
+                            class="nav-link active"
+                            href="kontak.html">
+                            Kontak
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- NOTIFIKASI -->
+
+    <div
+        id="notifikasi"
+        class="alert alert-success shadow">
+
+        <strong>Berhasil Trader XAU
+            Terimakasih Pesan Nya
+        </strong>
+
+        <br>
+
+        Pesan kamu berhasil terkirim.
+
+    </div>
+
+
+    <!-- KONTAK -->
+
+    <section class="py-5">
+
+        <div class="container">
+
+            <div class="text-center mb-5">
+
+                <p class="text-warning fw-bold">
+                    CONTACT US
+                </p>
+
+                <h1 class="fw-bold">
+                    Hubungi Kami
+                </h1>
+
+                <p class="text-muted">
+                    Kami siap menerima pertanyaan dan pesanan kamu.
+                </p>
+
+            </div>
+
+
+            <div class="row g-4 justify-content-center">
+
+
+                <!-- ALAMAT -->
+
+                <div class="col-md-4">
+
+                    <div class="card border-0 shadow-sm h-100">
+
+                        <div class="card-body text-center p-4">
+
+                            <div class="display-5">
+                                📍
+                            </div>
+
+                            <h5 class="fw-bold mt-3">
+                                Alamat
+                            </h5>
+
+                            <p class="text-muted">
+                                Jl. Kopi Senja No. 10
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- TELEPON -->
+
+                <div class="col-md-4">
+
+                    <div class="card border-0 shadow-sm h-100">
+
+                        <div class="card-body text-center p-4">
+
+                            <div class="display-5">
+                                📞
+                            </div>
+
+                            <h5 class="fw-bold mt-3">
+                                Nomor Telepon
+                            </h5>
+
+                            <p class="text-muted">
+                                0857-5102-6394
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- EMAIL -->
+
+                <div class="col-md-4">
+
+                    <div class="card border-0 shadow-sm h-100">
+
+                        <div class="card-body text-center p-4">
+
+                            <div class="display-5">
+                                📧
+                            </div>
+
+                            <h5 class="fw-bold mt-3">
+                                Email
+                            </h5>
+
+                            <p class="text-muted">
+                                kopixauusd@email.com
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- FORM -->
+
+            <div class="row justify-content-center mt-5">
+
+                <div class="col-lg-8">
+
+                    <div class="card border-0 shadow-sm">
+
+                        <div class="card-body p-4">
+
+                            <h4 class="fw-bold mb-4">
+                                Kirim Pesan
+                            </h4>
+
+
+                            <form id="formKontak">
+
+
+                                <!-- NAMA -->
+
+                                <div class="mb-3">
+
+                                    <label
+                                        for="nama"
+                                        class="form-label">
+
+                                        Nama
+
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        id="nama"
+                                        class="form-control"
+                                        placeholder="Masukkan nama">
+
+                                </div>
+
+
+                                <!-- EMAIL -->
+
+                                <div class="mb-3">
+
+                                    <label
+                                        for="email"
+                                        class="form-label">
+
+                                        Email
+
+                                    </label>
+
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        class="form-control"
+                                        placeholder="Masukkan email">
+
+                                </div>
+
+
+                                <!-- PESAN -->
+
+                                <div class="mb-3">
+
+                                    <label
+                                        for="pesan"
+                                        class="form-label">
+
+                                        Pesan
+
+                                    </label>
+
+                                    <textarea
+                                        id="pesan"
+                                        class="form-control"
+                                        rows="5"
+                                        placeholder="Tulis pesan kamu"></textarea>
+
+                                </div>
+
+
+                                <!-- TOMBOL -->
+
+                                <button
+                                    type="submit"
+                                    class="btn btn-warning w-100">
+
+                                    Kirim Pesan
+
+                                </button>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer class="bg-dark text-white text-center py-4">
+
+        <h5>
+            KOPI XAUUSD
+        </h5>
+
+        <p class="mb-0">
+            Kopi terbaik untuk menemani setiap kali full margin.
+        </p>
+
+        <small>
+            © 2026 Kopi XAUUSD
+        </small>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script>
+
+        document
+            .getElementById("formKontak")
+            .addEventListener("submit", function(event) {
+
+                // Mencegah halaman refresh
+                event.preventDefault();
+
+
+                let nama =
+                    document.getElementById("nama").value.trim();
+
+                let email =
+                    document.getElementById("email").value.trim();
+
+                let pesan =
+                    document.getElementById("pesan").value.trim();
+
+
+                // CEK NAMA
+
+                if (nama === "") {
+
+                    alert("Nama belum diisi!");
+
+                    document
+                        .getElementById("nama")
+                        .focus();
+
+                    return;
+
+                }
+
+
+                // CEK EMAIL
+
+                if (email === "") {
+
+                    alert("Email belum diisi!");
+
+                    document
+                        .getElementById("email")
+                        .focus();
+
+                    return;
+
+                }
+
+
+                // CEK PESAN
+
+                if (pesan === "") {
+
+                    alert("Pesan belum diisi!");
+
+                    document
+                        .getElementById("pesan")
+                        .focus();
+
+                    return;
+
+                }
+
+
+                // TAMPILKAN NOTIFIKASI
+
+                let notifikasi =
+                    document.getElementById("notifikasi");
+
+                notifikasi.style.display = "block";
+
+
+                // Kosongkan form
+
+                document
+                    .getElementById("formKontak")
+                    .reset();
+
+
+                // Hilangkan notifikasi setelah 3 detik
+
+                setTimeout(function() {
+
+                    notifikasi.style.display = "none";
+
+                }, 3000);
+
+            });
+
+    </script>
+
+</body>
+
+</html>
